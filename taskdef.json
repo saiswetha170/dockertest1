@@ -1,9 +1,9 @@
 {
-    "family": "devtask",
+    "family": "prodtask",
     "containerDefinitions": [
         {
             "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
-            "name": "devtask",
+            "name": "prodtask",
             "cpu": 10,
             "memory": 256,
             "essential": true,
