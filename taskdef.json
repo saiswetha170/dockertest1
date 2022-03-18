@@ -1,5 +1,5 @@
 {
-    "family": "prodtask",
+    "family": "devtask",
     "containerDefinitions": [
         {
             "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
