@@ -19,7 +19,7 @@ pipeline {
             }
             stage('Copy the Index FIles to Nginx Html Folder') {
                 steps {
-                    sh 'sudo cp /var/lib/jenkins/workspace/sample-pipeline/*.* /var/www/html/'
+                    sh 'sudo cp /var/lib/jenkins/workspace/Demo-job1/*.* /var/www/html/'
                 }
             }
             stage('Restart the NGINX Sever') {
